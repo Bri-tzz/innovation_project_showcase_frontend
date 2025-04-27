@@ -15,7 +15,7 @@ const NavBar = () => {
         <nav className='bg-blue-50 text-gray-900 flex justify-between p-4 shadow-md border-b-2 border-red-200'>
             <div className='flex gap-2 items-center'>
                 <GrProjects className="text-red-600" />
-                <h1 className="text-xl font-bold">Project Portal</h1>
+                <h1 className="text-xl font-bold">Acity Project Portal</h1>
             </div>
 
             {

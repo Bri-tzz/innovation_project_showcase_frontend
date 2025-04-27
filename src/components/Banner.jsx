@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Banner = ({ title, subtitle, linkText, onClick, backgroundImage }) => {
   return (
     <header
-      className='flex flex-col gap-3 justify-center items-center w-full'
+      className='flex flex-col gap-3 justify-evenly items-center w-full'
       style={{
         backgroundImage: `url(${backgroundImage})`,
         backgroundSize: 'cover', // Ensures the image covers the entire header

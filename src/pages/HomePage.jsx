@@ -41,9 +41,9 @@ const HomePage = () => {
         <div>
             <NavBar />
             <Banner
-                title="Empowering Innovation"
-                subtitle="Discover groundbreaking projects shaping the future."
-                linkText="Explore Projects"
+                title="Fostering Creativity"
+                subtitle="Uncover pioneering projects that are defining tomorrow."
+                linkText="Browse Projects"
                 onClick={onClick}
                 backgroundImage="https://picsum.photos/400/300?random=2"
             />
@@ -51,7 +51,7 @@ const HomePage = () => {
             <main>
 
                 <section id='featured-project' className='bg-blue-50 flex flex-col justify-center px-10 py-10'>
-                    <h1 className="font-bold text-red-700 text-4xl mt-2 mb-4 text-center">Featured Projects</h1>
+                    <h1 className="font-bold text-red-700 text-4xl mt-2 mb-4 text-center">Recent Projects</h1>
                     <div className='grid grid-cols-2 gap-5'>
                         {
                             isLoading ? <div className='flex justify-center items-center w-full h-full mt-5'> <Hourglass
